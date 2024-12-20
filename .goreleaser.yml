@@ -24,7 +24,7 @@ brews:
     repository:
       owner: cuotos
       name: homebrew-tap
-      token: "{{ .Env.COMMITTER_TOKEN }}"
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
 checksum:
   name_template: 'checksums.txt'
 snapshot:
